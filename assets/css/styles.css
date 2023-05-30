@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+}
+
+h1 {
+    background-color: lime;
+    color:black;
+    padding: 1%;
+}
+
+h3 {
+    font-size: 40px;
+    color: rgb(50, 79, 132);
+}
+
+h6 {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #000000;
+}
+
+div div {
+    border: 1px solid;
+    border-color: rgb(102, 145, 214);
+    box-shadow: 1px 1px 2px 0.4px rgba(0,0,0,.8);
+}
+
+.header li {
+    display: inline;
+    margin: 10px 14px;
+
+}
+
+.header a {
+    color:#fff;
+    font-size: 20px;;
+    text-decoration: none;
+}
+
+.header a:hover {
+    background-color: white;
+    color:#000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+    background: #13293d;
+    color: #fff;
+}
+
+.main-image {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.about-me h3{
+    border-right: 7px solid;
+    border-color:  rgb(50, 79, 132);
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.about-me p {
+    width: 80%;
+    padding: 0 25px;
+    padding-bottom: 35px;
+}
+
+.work {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.work h3 {
+    border-right: 7px solid;
+    border-color: rgb(50, 79, 132);
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.work section {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+.project-a {
+    border: 3px solid;
+    border-color: rgb(109, 181, 181);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    width: 98%;
+    margin: 2%;
+    background-image: url("../images/snake.png");
+    background-size: 100% 100%;
+    height: 34%
+}
+
+.project-a div{
+    background-color: rgb(109, 181, 181);
+    margin-top: 250px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.project-a:hover {
+    filter: brightness(120%)
+}
+
+.project-b {
+    border: 3px solid;
+    border-color: rgb(109, 181, 181);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    width: 46%;
+    margin: 2%;
+    background-image: url("../images/calculator.jpg");
+    background-size: 100% 100%;
+    height: 27%;
+}
+
+.project-b div{
+    background-color: rgb(109, 181, 181);
+    margin-top: 190px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.project-b:hover {
+    filter: brightness(120%)
+}
+
+.project-c {
+    border: 3px solid;
+    border-color: rgb(109, 181, 181);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    width: 46%;
+    margin: 2%;
+    background-image: url("../images/websitetemplate.png");
+    background-size: 100% 100%;
+    height: 27%;
+}
+
+.project-c div{
+    background-color: rgb(109, 181, 181);
+    margin-top: 190px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.project-c:hover {
+    filter: brightness(120%)
+}
+
+.project-d {
+    border: 3px solid;
+    border-color: rgb(109, 181, 181);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    width: 46%;
+    margin: 2%;
+    background-image: url("../images/AGI.jpg");
+    background-size: 100% 100%;
+    height: 27%;
+}
+
+.project-d div{
+    background-color: rgb(109, 181, 181);
+    margin-top: 190px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.project-d:hover {
+    filter: brightness(120%)
+}
+
+.project-e {
+    border: 3px solid;
+    border-color: rgb(109, 181, 181);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    width: 46%;
+    margin: 2%;
+    background-image: url("../images/webscraper.png");
+    background-size: 100% 100%;
+    height: 27%;
+}
+
+.project-e div{
+    background-color: rgb(109, 181, 181);
+    margin-top: 190px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.project-e:hover {
+    filter: brightness(120%)
+}
+
+.contact-me {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-me h3 {
+    width: 20%;
+    text-align: right;
+    border-right: 7px solid;
+    border-color:  rgb(50, 79, 132);
+    padding-right: 10px;
+}
+
+.contact-me div {
+    margin: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+
+.contact-me ul {
+    width: 100%;
+}
+
+.contact-me li {
+    display: inline;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.contact-me a {
+    text-decoration: underline;
+    color:  rgb(255, 125, 125);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-me a:hover {
+    background-color: rgb(255, 125, 125);
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    h1 {
+        margin-right: 55%;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .project-a div {
+        margin-top: 170px;
+    }
+    .project-b div {
+        margin-top: 135px;
+    }
+    .project-c div {
+        margin-top: 135px;
+    }
+    .project-d div {
+        margin-top: 135px;
+    }
+    .project-e div {
+        margin-top: 135px;
+    }
+    .header {
+        display: block;
+    }
+
+    .work section {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 750px;
+    }
+
+    .contact-me a {
+        text-decoration: underline;
+        color:rgb(255, 125, 125);
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .contact-me li {
+        display: inline;
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+}
