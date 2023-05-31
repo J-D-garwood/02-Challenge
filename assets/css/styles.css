@@ -1,3 +1,4 @@
+/*General Styling*/
 *{
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -27,6 +28,7 @@ div div {
     box-shadow: 1px 1px 2px 0.4px rgba(0,0,0,.8);
 }
 
+/*header styling*/
 .header li {
     display: inline;
     margin: 10px 14px;
@@ -52,6 +54,7 @@ div div {
     color: #fff;
 }
 
+/*main image*/
 .main-image {
     height: 800px;
     width: 100%;
@@ -60,6 +63,7 @@ div div {
     background-position: center;
 }
 
+/*aboout me section styling*/
 .about-me {
     display: flex;
     margin-top: 5px;
@@ -80,6 +84,7 @@ div div {
     padding-bottom: 35px;
 }
 
+/*work section styling*/
 .work {
     display: flex;
     margin-top: 15px;
@@ -110,6 +115,7 @@ div div {
     z-index:1;
 }
 
+/*work divs styling*/
 .project-a {
     border: 3px solid;
     border-color: rgb(109, 181, 181);
@@ -225,9 +231,9 @@ div div {
     filter: brightness(120%)
 }
 
+/*Contact me section styling*/
 .contact-me {
     display: flex;
-    /*justify-content: space-between;*/
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -268,6 +274,7 @@ div div {
     color: white;
 }
 
+/*Resizing of screen specifications*/
 @media only screen and (max-width: 750px) {
     h1 {
         margin-right: 55%;
